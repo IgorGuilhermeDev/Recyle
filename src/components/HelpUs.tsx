@@ -11,6 +11,9 @@ export const HelpUs: FC = () => {
     return (
         <div className="help-us">
             <h2 className="general-title">Como nos ajudar</h2>
+            <p>
+            Uma maneira altamente eficaz de apoiar nosso projeto é desempenhando o seu papel no processo. A seguir, você aprenderá sobre os conteúdos ideais de cada tipo de lixo, contribuindo assim para o sucesso da iniciativa.
+            </p>
             <div className="row">
                 <InfoTrash title="Plástico" imageUrl={imgUrlPlastic} items={['Guarrafa de água', 'Guarrafas plásticas de refrigerante', 'Colheres e Talheres de plástico no geral']} />
                 <InfoTrash title="Papel" imageUrl={imgUrlPaper} items={['Embalagens de papelão', 'Jornais', 'Revistas', 'Papel de escrita e embrulho']} />

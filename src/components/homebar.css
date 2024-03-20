@@ -9,7 +9,7 @@
   align-items: center;
   padding: 20px 0; /* Increase padding to increase height */
 }
-.navbar .left .title {
+.navbar .left .title-main {
   font-size: 1.5rem;
   font-weight: bold;
   color: #1b5e20; /* Darker shade of green */
