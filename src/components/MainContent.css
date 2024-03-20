@@ -1,0 +1,87 @@
+.main-content {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    margin: 40px;
+  }
+  
+  .image-container {
+    width: 50%; /* Adjust the width to occupy more space */
+  }
+  
+  .image-container img {
+    width: 60%; /* Set the width of the image to 100% of the container */
+    height: auto;
+  }
+  
+  
+  .pretty-text {
+    width: 50%;
+    padding: 20px; /* Add padding for spacing */
+  }
+
+  .pretty-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a clean and modern font */
+    font-size: 18px; /* Set a comfortable font size */
+    line-height: 1.5; /* Increase line height for better readability */
+    color: #fff; /* Set text color to white for better visibility */
+    text-align: justify; /* Justify text for a clean look */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 10px; /* Add rounded corners */
+    background-color: #333; /* Set a dark background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  
+  .pretty-text span.green-word {
+    font-weight: bold; /* Make the word bold */
+    color: #66bb6a; /* Set a green color */
+  }
+  
+  .pretty-text::first-letter {
+    font-size: 24px; /* Increase font size for the first letter */
+    font-weight: bold; /* Make the first letter bold */
+    color: #66bb6a; /* Set a color for the first letter */
+    float: left; /* Float the first letter to the left */
+    margin-right: 5px; /* Add a small margin to separate it from the text */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0; /* Start with opacity 0 (invisible) */
+      transform: translateY(20px); /* Start slightly below and move up */
+    }
+    to {
+      opacity: 1; /* End with opacity 1 (fully visible) */
+      transform: translateY(0); /* End at original position */
+    }
+  }
+  
+  /* Apply the fade-in animation to the image and text */
+  .main-content .image-container img,
+  .main-content .pretty-text {
+    animation: fadeIn 1s ease-in-out; /* Apply the fadeIn animation */
+  }
+
+  /* Apply styles for mobile devices */
+/* Apply styles for mobile devices */
+@media only screen and (max-width: 768px) {
+  .main-content {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  .image-container {
+    width: 100%; /* Full width for the image */
+  }
+
+  .image-container img {
+    width: 100%; /* Set the width of the image to 100% of its container */
+    height: auto;
+  }
+
+  .pretty-text {
+    width: 100%; /* Full width for the text */
+    padding: 20px; /* Remove padding */
+    font-size: 16px; /* Decrease font size for better readability */
+    line-height: 1.4; /* Adjust line height */
+  }
+}

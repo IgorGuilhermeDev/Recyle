@@ -1,0 +1,8 @@
+.FAQ {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 35px;
+    color: #8B4513; /* Change text color to a lighter shade of brown */
+    font-family: 'Arial Black', sans-serif; /* Apply a beautiful font */
+}

@@ -1,0 +1,40 @@
+/* Import the desired font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.navbar {
+  background-color: #66bb6a; /* Green background */
+  color: white; /* White text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; /* Increase padding to increase height */
+}
+.navbar .left .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1b5e20; /* Darker shade of green */
+  font-family: 'Roboto', sans-serif; /* Apply Roboto font */
+  margin-left: 20px;
+}
+
+.navbar .right a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  transition: all 0.3s ease; /* Smooth transition */
+  text-transform: uppercase; /* Convert text to uppercase */
+  font-weight: bold; /* Apply bold font */
+}
+
+/* Hover effect */
+.navbar .right a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar .right {
+    display: none; /* Hide navigation links on small screens */
+  }
+}

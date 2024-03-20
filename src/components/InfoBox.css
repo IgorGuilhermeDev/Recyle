@@ -1,0 +1,24 @@
+.info-box {
+  background-color: #e0e0e0; /* Darker gray background */
+  border: 2px solid rgba(0, 0, 0, 0.1); /* Transparent border */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  margin: 20px;
+}
+
+.info-title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use a clean and modern font */
+  font-size: 28px;
+  font-weight: bold;
+  color: #333; /* Dark gray text color */
+  margin-bottom: 10px;
+}
+
+.info-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Use the same font as the title */
+  font-size: 16px;
+  color: #333; /* Dark gray text color */
+  line-height: 1.6;
+}
