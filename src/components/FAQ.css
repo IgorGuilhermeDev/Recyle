@@ -6,3 +6,10 @@
     color: #8B4513; /* Change text color to a lighter shade of brown */
     font-family: 'Arial Black', sans-serif; /* Apply a beautiful font */
 }
+
+
+@media only screen and (max-width: 768px) {
+    .FAQ {
+        font-size: 23px;
+    }
+}
