@@ -1,0 +1,24 @@
+.help-us {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.general-title {
+  margin-bottom: 50px;
+  font-size: 35px;
+  color: #8B4513; /* Change text color to a lighter shade of brown */
+  font-family: 'Arial Black', sans-serif; /* Apply a beautiful font */
+}
+
+.row {
+  display: flex;
+  justify-content: space-around; /* Center the items horizontally */
+  margin-right: 250px;
+  margin-left: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    flex-wrap: wrap;
+  }
+}
