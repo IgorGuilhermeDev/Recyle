@@ -7,7 +7,7 @@ import Recycle from "./Recycle";
 export const FAQ: FC  = () => {
     return (
     <div>
-        <h2 className="FAQ">FAQ - Perguntas frequentes</h2>
+        <h2 id="FAQ" className="FAQ">FAQ - Perguntas frequentes</h2>
         <Proposal/>
         <Recycle/>
         <SeletiveCollect/>

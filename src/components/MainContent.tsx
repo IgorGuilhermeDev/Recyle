@@ -3,7 +3,7 @@ import './MainContent.css'; // Import the CSS file for styling
 import imgSrc  from "../assets/imgs/main-img.png";
 const MainContent: FC = () => {
   return (
-    <div className="main-content">
+    <div id="main-content" className="main-content">
       <div className="image-container">
         <img src={imgSrc} alt="Image" />
       </div>

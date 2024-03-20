@@ -7,9 +7,9 @@ export const HomeBar: FC  = () => {
       <span className="title-main">GREEN CAMPUS</span>
     </div>
     <div className="right">
-      <a href="#inicio">Início</a>
-      <a href="#sobre-nos">Sobre Nós</a>
-      <a href="#reciclagem">Reciclagem</a>
+      <a href="#main-content">Início</a>
+      <a href="#FAQ">FAQ</a>
+      <a href="#help-us">Ajude-nos</a>
     </div>
   </div>
 }
